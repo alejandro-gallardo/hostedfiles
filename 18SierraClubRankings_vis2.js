@@ -21,7 +21,7 @@ maxPoints= [38.06,	20.3,	18.27,	20.3,	12.69,	10.05,	9.14,	9.59,	10.05,	7.31,	6,	
     };
 
 //open csv
-d3.csv("https://storage.googleapis.com/www.gallardostudio.com/2018CoolSchools_SierraClub.csv", function(csvData) {
+d3.csv("https://alejandro-gallardo.github.io/hostedfiles/2018CoolSchools_SierraClub.csv", function(csvData) {
 	data = csvData; 
 	attributes = d3.keys(data[0]); //list of all attributes
 	var xCoord = xmargin; // x position for a given axis
